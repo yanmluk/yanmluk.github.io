@@ -9,10 +9,12 @@ main:
     url: /projects/ 
 
   - title: "Publications"
-    url: /publications/
+    # url: /publications/
+    url: /others/
     
   - title: "CV"
-    url: /cv/
+    # url: /cv/
+    url: /others/
     
   - title: "Others"
     url: /others/
