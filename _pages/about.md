@@ -1,12 +1,32 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "👋Hi, I'm Yanming!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+I'm a Ph.D. student in the Visual Analytics and Imaging Lab at Stony Brook University, advised by [Professor Klaus Mueller](https://www3.cs.stonybrook.edu/~mueller/). My research focuses on visual analytics, causal inference, explainable AI, human-computer interaction, and large language models. Currently, I'm working on projects involving the application of data causality to public health challenges, investigating explainable behaviors of reinforcement learning agents, alongside other ongoing research in diverse applications of visual analytics.
+
+My doctoral research is supported by grants from the American Public Health Association (APHA), the New York State Strategic Partnership for Industrial Resurgence (SPIR) program, and the National Science Foundation (NSF).
+
+Previously, I received my Bachelor's degree in Mathematics and Applied Mathematics from Southwest Jiaotong University.
+
+Recent News
+------
+
+<div style="margin-bottom: 1em;">
+  <strong>May 2025</strong> Honored to serve as a reviewer for the IEEE VIS 2025 full paper track.
+</div>
+<div style="margin-bottom: 1em;">
+  <strong>Aug 2023</strong> Our work on LLM-assisted causal model auditing has been accepted to the IEEE VIS 2023 NL-VIZ Workshop.
+</div>
+<div style="margin-bottom: 1em;">
+  <strong>Aug 2022</strong> Passed my Research Proficiency Exam, titled Visual Causality Experimenter.
+</div>
+
+<!-- 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
 A data-driven personal website
@@ -46,4 +66,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
