@@ -1,0 +1,112 @@
+---
+layout: archive-no-footer
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+
+{% include base_path %}
+
+<style>
+.project-item {
+  display: flex;
+  margin-bottom: 2em;
+  align-items: center;
+}
+
+.project-image {
+  width: 200px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.project-content {
+  flex-grow: 1;
+}
+
+.project-title {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-title:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.project-button {
+  border: 1px solid #212529;
+  background: white;
+  color: #212529;
+  padding: 4px 10px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-size: 1em;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.project-button:hover {
+  background: #212529;
+  color: white;
+  text-decoration: none !important;
+}
+
+.project-button:link,
+.project-button:visited,
+.project-button:hover,
+.project-button:active {
+  text-decoration: none !important;
+}
+</style>
+
+{% for post in site.projects reversed %}
+  <div class="project-item">
+    {% if post.image %}
+    <div class="project-image">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    </div>
+    {% endif %}
+    <div class="project-content">
+      <h2 class="project-title">{{ post.title }}</h2>
+      <p>
+        {% assign start_date = post.date | date: "%b %Y" %}
+        {% assign end_date = post.end_date | date: "%b %Y" %}
+        {% if post.end_date %}
+          {{ start_date }} - {{ end_date }}
+        {% else %}
+          {{ start_date }}
+        {% endif %}
+      </p>
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      {% endif %}
+      <div class="project-buttons">
+        {% if post.buttons %}
+          {% for button in post.buttons %}
+            <a class="project-button" href="{{ button.link }}" target="_blank">{{ button.text }}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
+
+
+

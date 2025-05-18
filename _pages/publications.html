@@ -5,32 +5,108 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
+<style>
+.publication-item {
+  display: flex;
+  margin-bottom: 2em;
+  align-items: center;
+}
+
+.publication-image {
+  width: 200px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.publication-image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.publication-content {
+  flex-grow: 1;
+}
+
+.publication-title {
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 0.2em;
+}
+
+.publication-title:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.publication-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.publication-button {
+  border: 1px solid #212529;
+  background: white;
+  color: #212529;
+  padding: 4px 10px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-size: 1em;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.publication-button:hover {
+  background: #212529;
+  color: white;
+  text-decoration: none !important;
+}
+
+.publication-button:link,
+.publication-button:visited,
+.publication-button:hover,
+.publication-button:active {
+  text-decoration: none !important;
+}
+</style>
+
+{% for post in site.publications reversed %}
+  <div class="publication-item">
+    {% if post.image %}
+    <div class="publication-image">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    </div>
+    {% endif %}
+    <div class="publication-content">
+      <h2 class="publication-title">{{ post.title }}</h2>
+      <p>
+        {%- assign author_list = post.authors | default: post.author | default: "" | split: "," -%}
+        {%- for author in author_list -%}
+          {%- assign trimmed_author = author | strip -%}
+          {%- if trimmed_author contains 'Y. Zhang' -%}
+            <strong>{{ trimmed_author }}</strong>{% unless forloop.last %}, {% endunless %}
+          {%- else -%}
+            {{ trimmed_author }}{% unless forloop.last %}, {% endunless %}
+          {%- endif -%}
+        {%- endfor -%}
+      </p>
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+      <div class="publication-buttons">
+        {% for button in post.buttons %}
+          <a class="publication-button" href="{{ button.link }}" target="_blank">{{ button.text }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+{% endfor %}
 
 
 
