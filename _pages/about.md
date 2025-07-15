@@ -15,7 +15,9 @@ Previously, I received my Bachelor's degree in Mathematics and Applied Mathemati
 
 Recent News
 ------
-
+<div style="margin-bottom: 1em;">
+  <strong>July 2025</strong> Our work, XplainAct: Visualization for Personalized Intervention Insights, has been accepted as a Short Paper at IEEE VIS 2025.
+</div>
 <div style="margin-bottom: 1em;">
   <strong>May 2025</strong> Honored to serve as a reviewer for the IEEE VIS 2025 full paper track.
 </div>
