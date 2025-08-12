@@ -13,6 +13,8 @@ image: '/files/images/xplainact_paper.jpg'
 authors: 'Y. Zhang, K. Hegde, K. Mueller'
 bibtexurl: "/files/bibtex/"
 buttons:
+    - text: "PDF"
+      link: "https://arxiv.org/pdf/2507.14767"
     - text: "Video"
       link: "https://youtu.be/3raxVMAghk4'"
 ---
