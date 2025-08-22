@@ -16,7 +16,10 @@ Previously, I received my Bachelor's degree in Mathematics and Applied Mathemati
 Recent News
 ------
 <div style="margin-bottom: 1em;">
-  <strong>July 2025</strong> Our work, XplainAct: Visualization for Personalized Intervention Insights, has been accepted as a Short Paper at IEEE VIS 2025.
+  <strong>Aug 2025</strong> Our work, CausalChat: Interactive Causal Model Development and Refinement Using Large Language Models, has been accepted as a Regular Paper in the upcoming issue of the IEEE Transactions on Visualization and Computer Graphics!
+</div>
+<div style="margin-bottom: 1em;">
+  <strong>Jul 2025</strong> Our work, XplainAct: Visualization for Personalized Intervention Insights, has been accepted as a Short Paper at IEEE VIS 2025.
 </div>
 <div style="margin-bottom: 1em;">
   <strong>May 2025</strong> Honored to serve as a reviewer for the IEEE VIS 2025 full paper track.

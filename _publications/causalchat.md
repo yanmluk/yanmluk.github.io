@@ -3,8 +3,8 @@ title: "CausalChat: Interactive Causal Model Development and Refinement Using La
 collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'Preprint'
-date: 2024-10-01
+excerpt: 'IEEE Transactions on Visualization and Computer Graphics – August 2025'
+date: 2025-08-01
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
