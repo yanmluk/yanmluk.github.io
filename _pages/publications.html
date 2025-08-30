@@ -74,6 +74,25 @@ author_profile: true
 .publication-button:active {
   text-decoration: none !important;
 }
+
+.cite-button {
+  border: 1px solid #212529;
+  background: white;
+  color: #212529;
+  padding: 4px 10px;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-size: 1em;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.cite-button:hover {
+  background: #212529;
+  color: white;
+  text-decoration: none !important;
+}
 </style>
 
 {% for post in site.publications reversed %}
@@ -101,12 +120,17 @@ author_profile: true
       {% endif %}
       <div class="publication-buttons">
         {% for button in post.buttons %}
-          <a class="publication-button" href="{{ button.link }}" target="_blank">{{ button.text }}</a>
+          {% if button.text == "Cite" %}
+            <button class="publication-button cite-button" onclick="openBibtexModal('{{ button.link }}')">{{ button.text }}</button>
+          {% else %}
+            <a class="publication-button" href="{{ button.link }}" target="_blank">{{ button.text }}</a>
+          {% endif %}
         {% endfor %}
       </div>
     </div>
   </div>
 {% endfor %}
 
+{% include bibtex-modal.html %}
 
-
+<script src="{{ '/assets/js/bibtex-modal.js' | relative_url }}"></script>

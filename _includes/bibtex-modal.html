@@ -1,0 +1,128 @@
+<!-- BibTeX Modal -->
+<div id="bibtexModal" class="bibtex-modal">
+  <div class="bibtex-modal-content">
+    <div class="bibtex-modal-header">
+      <h3>BibTeX</h3>
+      <span class="bibtex-modal-close">&times;</span>
+    </div>
+    <div class="bibtex-modal-body">
+      <pre id="bibtexContent" class="bibtex-content"></pre>
+    </div>
+    <div class="bibtex-modal-footer">
+      <button id="copyBibtexBtn" class="copy-bibtex-btn">Copy</button>
+    </div>
+  </div>
+</div>
+
+<style>
+.bibtex-modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bibtex-modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 0;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.bibtex-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 0 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.bibtex-modal-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.bibtex-modal-close {
+  color: #aaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.bibtex-modal-close:hover,
+.bibtex-modal-close:focus {
+  color: #000;
+}
+
+.bibtex-modal-body {
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.bibtex-content {
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  padding: 15px;
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  color: #333;
+}
+
+.bibtex-modal-footer {
+  padding: 0 20px 20px 20px;
+  text-align: right;
+}
+
+.copy-bibtex-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+  transition: background-color 0.2s;
+}
+
+.copy-bibtex-btn:hover {
+  background-color: #0056b3;
+}
+
+.copy-bibtex-btn:active {
+  background-color: #004085;
+}
+
+@media (max-width: 768px) {
+  .bibtex-modal-content {
+    width: 95%;
+    margin: 10% auto;
+  }
+  
+  .bibtex-modal-header {
+    padding: 15px 15px 0 15px;
+  }
+  
+  .bibtex-modal-body {
+    padding: 15px;
+  }
+  
+  .bibtex-modal-footer {
+    padding: 0 15px 15px 15px;
+  }
+}
+</style>
