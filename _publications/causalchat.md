@@ -17,6 +17,8 @@ buttons:
       link: "https://arxiv.org/pdf/2410.14146"
     - text: "Cite"
       link: "/files/bibtex/causalchat.bib"
+    - text: "Demo"
+      link: "http://webserv01.cs.stonybrook.edu:5000"
     - text: "Code"
       link: "https://github.com/yanmluk/opioid_gpt"
     - text: "Video"
