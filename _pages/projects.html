@@ -37,11 +37,21 @@ author_profile: true
 .project-title {
   color: inherit;
   text-decoration: none;
+  margin-bottom: 0.25em;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+}
+
+.project-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-title a:hover {
+  text-decoration: underline;
 }
 
 .project-title:hover {
   color: inherit;
-  text-decoration: none;
 }
 
 .project-buttons {
@@ -84,7 +94,13 @@ author_profile: true
     </div>
     {% endif %}
     <div class="project-content">
-      <h2 class="project-title">{{ post.title }}</h2>
+      <h2 class="project-title">
+        {% if post.permalink %}
+          <a href="{{ post.permalink | relative_url }}">{{ post.title }}</a>
+        {% else %}
+          {{ post.title }}
+        {% endif %}
+      </h2>
       <p>
         {% assign start_date = post.date | date: "%b %Y" %}
         {% assign end_date = post.end_date | date: "%b %Y" %}
