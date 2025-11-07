@@ -10,10 +10,3 @@ buttons:
   - text: "Code"
     link: 'https://github.com/yanmluk/stratvis'
 ---
-
-This is a detailed description of the project. You can add more information about:
-- Project goals
-- Technologies used
-- Your role
-- Outcomes and impact
-- Links to demos or repositories 

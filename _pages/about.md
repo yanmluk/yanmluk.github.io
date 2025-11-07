@@ -13,8 +13,13 @@ My doctoral research is supported by grants from the American Public Health Asso
 
 Previously, I received my Bachelor's degree in Mathematics and Applied Mathematics from Southwest Jiaotong University.
 
+If you’re interested in learning more, please contact me at `yanming[dot]zhang[at]stonybrook.edu`.
+
 Recent News
 ------
+<div style="margin-bottom: 1em;">
+  <strong>Nov 2025</strong> Presented at the Epidemiology of Substance Use session and the poster session at the APHA 2025 Annual Meeting & Expo.
+</div>
 <div style="margin-bottom: 1em;">
   <strong>Aug 2025</strong> Our work, CausalChat: Interactive Causal Model Development and Refinement Using Large Language Models, has been accepted as a Regular Paper in the upcoming issue of the IEEE Transactions on Visualization and Computer Graphics!
 </div>

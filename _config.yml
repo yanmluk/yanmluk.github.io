@@ -29,7 +29,7 @@ author:
   location         : "Stony Brook, NY"
   employer         : "Stony Brook University"
   uri              : # URL
-  email            : "yanming.zhang[at]stonybrook.edu" 
+  email            : #"yanming.zhang[at]stonybrook.edu" 
 
   # Academic websites
   academia         : # URL

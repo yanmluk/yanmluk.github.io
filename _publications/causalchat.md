@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2010-10-01-paper-title-number-2
 excerpt: 'IEEE Transactions on Visualization and Computer Graphics – August 2025'
-date: 2025-08-01
+date: 2025-08-25
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
@@ -14,7 +14,7 @@ authors: 'Y. Zhang, A. Kota, E. Papenhausen, K. Mueller'
 bibtexurl: "/files/bibtex/causalchat.bib"
 buttons:
     - text: "PDF"
-      link: "https://arxiv.org/pdf/2410.14146"
+      link: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11141551"
     - text: "Cite"
       link: "/files/bibtex/causalchat.bib"
     - text: "Demo"
