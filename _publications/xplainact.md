@@ -15,6 +15,8 @@ bibtexurl: "/files/bibtex/"
 buttons:
     - text: "PDF"
       link: "https://arxiv.org/pdf/2507.14767"
+    - text: "Cite"
+      link: "/files/bibtex/xplainact.bib"
     - text: "Video"
       link: "https://youtu.be/3raxVMAghk4'"
     - text: "Presentation"
