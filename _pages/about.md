@@ -7,34 +7,83 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student in the Visual Analytics and Imaging Lab at Stony Brook University, advised by [Professor Klaus Mueller](https://www3.cs.stonybrook.edu/~mueller/). My research focuses on visual analytics, causal inference, explainable AI, human-computer interaction, and large language models. Currently, I'm working on projects involving the application of data causality to public health challenges, investigating explainable behaviors of reinforcement learning agents, alongside other ongoing research in diverse applications of visual analytics.
+I'm a Ph.D. student in the Visual Analytics and Imaging Lab at Stony Brook University, advised by [Professor Klaus Mueller](https://www3.cs.stonybrook.edu/~mueller/). My research focuses on **trustworthy AI, machine learning, causal inference, visual analytics, and large language models**. I am particularly interested in leveraging causal reasoning and interactive visual analytics to make AI systems more interpretable, explainable, and trustworthy. 
 
-My doctoral research is supported by grants from the American Public Health Association (APHA), the New York State Strategic Partnership for Industrial Resurgence (SPIR) program, and the National Science Foundation (NSF).
+My current research explores causality for trustworthy AI, interpretability and explainability of large language models, and broader applications of visual analytics for understanding complex machine learning systems.
 
 Previously, I received my Bachelor's degree in Mathematics and Applied Mathematics from Southwest Jiaotong University.
 
-If you’re interested in learning more, please contact me at `yanming[dot]zhang[at]stonybrook.edu`.
+If you're interested in my research or potential collaborations, feel free to reach out at `yanmzhang[at]cs[dot]stonybrook.edu`.
 
 Recent News
 ------
+<style>
+  .earlier-news {
+    margin-top: 0.25em;
+  }
+  .earlier-news > summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    user-select: none;
+  }
+  .earlier-news > summary::-webkit-details-marker {
+    display: none;
+  }
+  .earlier-news > summary::before {
+    content: "▶";
+    font-size: 0.65em;
+    line-height: 1;
+  }
+  .earlier-news[open] > summary::before {
+    content: "▼";
+  }
+  .earlier-news__list {
+    max-height: 14em;
+    overflow-y: auto;
+    margin-top: 0.75em;
+    padding-right: 0.5em;
+  }
+</style>
+
 <div style="margin-bottom: 1em;">
-  <strong>Nov 2025</strong> Presented at the Epidemiology of Substance Use session and the poster session at the APHA 2025 Annual Meeting & Expo.
+  <strong>Aug 2026</strong> Our paper, Fairness Beyond Populations: Subgroup-Specific Causal Diagnosis for Algorithmic Decision Auditing , has been accepted to EAAMO 2026!
 </div>
 <div style="margin-bottom: 1em;">
-  <strong>Aug 2025</strong> Our work, CausalChat: Interactive Causal Model Development and Refinement Using Large Language Models, has been accepted as a Regular Paper in the upcoming issue of the IEEE Transactions on Visualization and Computer Graphics!
+  <strong>Jul 2026</strong> Honored to serve on the Program Committee for AAAI/ACM AIES 2026.
 </div>
 <div style="margin-bottom: 1em;">
-  <strong>Jul 2025</strong> Our work, XplainAct: Visualization for Personalized Intervention Insights, has been accepted as a Short Paper at IEEE VIS 2025.
+  <strong>Jun 2026</strong> Joined Netflix as an ML/AI intern, working on explainability for recommendation algorithms!
 </div>
 <div style="margin-bottom: 1em;">
-  <strong>May 2025</strong> Honored to serve as a reviewer for the IEEE VIS 2025 full paper track.
+  <strong>Apr 2026</strong> Our work, CausalXRL: Explainable Reinforcement Learning through Causal Graph Reasoning, has been accepted as a Main Track Paper in ICML2026!
 </div>
-<div style="margin-bottom: 1em;">
-  <strong>Aug 2023</strong> Our work on LLM-assisted causal model auditing has been accepted to the IEEE VIS 2023 NL-VIZ Workshop.
-</div>
-<div style="margin-bottom: 1em;">
-  <strong>Aug 2022</strong> Passed my Research Proficiency Exam, titled Visual Causality Experimenter.
-</div>
+
+<details class="earlier-news">
+  <summary><strong>Earlier news</strong></summary>
+  <div class="earlier-news__list">
+    <div style="margin-bottom: 1em;">
+      <strong>Nov 2025</strong> Presented at the Epidemiology of Substance Use session and the poster session at the APHA 2025 Annual Meeting & Expo.
+    </div>
+    <div style="margin-bottom: 1em;">
+      <strong>Aug 2025</strong> Our work, CausalChat: Interactive Causal Model Development and Refinement Using Large Language Models, has been accepted as a Regular Paper in the upcoming issue of the IEEE Transactions on Visualization and Computer Graphics!
+    </div>
+    <div style="margin-bottom: 1em;">
+      <strong>Jul 2025</strong> Our work, XplainAct: Visualization for Personalized Intervention Insights, has been accepted as a Short Paper at IEEE VIS 2025.
+    </div>
+    <div style="margin-bottom: 1em;">
+      <strong>May 2025</strong> Honored to serve as a reviewer for the IEEE VIS 2025 full paper track.
+    </div>
+    <div style="margin-bottom: 1em;">
+      <strong>Aug 2023</strong> Our work on LLM-assisted causal model auditing has been accepted to the IEEE VIS 2023 NL-VIZ Workshop.
+    </div>
+    <div style="margin-bottom: 1em;">
+      <strong>Aug 2022</strong> Passed my Research Proficiency Exam, titled Visual Causality Experimenter.
+    </div>
+  </div>
+</details>
 
 <!-- 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!

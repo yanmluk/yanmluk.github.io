@@ -15,7 +15,8 @@ main:
     url: /publications/
 
   - title: "CV"
-    url: /others/
+    url: /files/Yanming_Zhang_CV27.pdf
+    new_window: true
     
   - title: "Others"
     url: /others/
@@ -32,8 +33,8 @@ main:
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
+  # # - title: "CV"
+  # #   url: /cv/
     
   # # - title: "CV"
   # #   url: /cv-json/
